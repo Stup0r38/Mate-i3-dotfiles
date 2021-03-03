@@ -1,10 +1,10 @@
 # i3-dotfiles
 
 ## Details ##
-+ **OS**: Fedora 32
++ **OS**: Fedora 33
 + **Shell**: ZSH
-+ **WM**: awesome
-+ **Theme**: oomox-iceb
++ **WM**: i3
++ **Theme**: WhiteSur-dark
 + **Icons**: Tela Blue
-+ **Cursor**: Bibata
++ **Cursor**: Bibata Oil
 + **Terminal**: Alacritty

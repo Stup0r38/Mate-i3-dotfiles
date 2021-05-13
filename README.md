@@ -1,7 +1,7 @@
 # i3-dotfiles
 
 ## Details ##
-+ **OS**: Fedora 33
++ **OS**: Fedora 34
 + **Shell**: ZSH
 + **WM**: i3
 + **Theme**: WhiteSur-dark

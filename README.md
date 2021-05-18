@@ -1,4 +1,4 @@
-# Mate-i3-dotfiles
+# mate-i3-dotfiles
 
 ## Details ##
 + **OS**: Fedora 34

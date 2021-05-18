@@ -20,6 +20,7 @@
 |`mate-session-manager`|Needed to make the display manager show mate as an option|
 |`rofi`|Application launcher|
 |`slock`|Used to lock the screen|
+|[i3altlayout](https://github.com/deadc0de6/i3altlayout)|Used for better windows placement|
 
 ### Optional Dependencies ###
 + `acpi`: Battery managing cli application, used by top bar widget to determine battery status

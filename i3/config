@@ -164,7 +164,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+#bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -200,6 +200,10 @@ bindsym $mod+b exec brave-browser
 #polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
+#bar{
+#	status_command i3status
+#}
+
 #Gaps
 gaps inner 10
 gaps outer 1
@@ -212,3 +216,4 @@ for_window [class=".*"] border pixel 2
 client.focused_inactive #0d1010 #212121 #d9d9d9 #0d1010 #063340
 client.unfocused        #0d1010 #212121 #d9d9d9 #424242 #063340
 client.focused          #d9d9d9 #cecece #000000 #d9d9d9 #d9d9d9
+

@@ -35,7 +35,7 @@
 
 ## Installation ##
 You will need to use the `dconf-editor`. You may need to install it as seems most distros don't provide it by default. Once you've got it open, head to `org > mate > desktop > session > required-components`. Change windowmanager from `marco` to `i3`.
-Then head up one level to `org > mate > desktop > session` and in required-component-list, delete `filemanager` and `panel`. This is needed otherwise MATE will open a background window for your desktop that will cover everything.
+Then head up one level to `org > mate > desktop > session` and in `required-component-list`, delete `filemanager` and `panel`. This is needed otherwise MATE will open a background window for your desktop that will cover everything.
 Now log out and back in, and you should find yourself in MATE, but with i3 running too.
 [Source](https://mattgreer.dev/blog/mate-and-i3/).
 

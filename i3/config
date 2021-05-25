@@ -41,7 +41,7 @@ exec --no-startup-id blueman-applet
 exec --no-startup-id feh --bg-fill ~/.config/i3/wallpaper2.jpg
 
 #Start picom
-#exec --no-startup-id picom
+exec --no-startup-id picom
 
 #Start redshift
 exec --no-startup-id redshift

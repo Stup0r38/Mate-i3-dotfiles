@@ -1,5 +1,7 @@
 # mate-i3-dotfiles
 
+![](/Screenshot.png)
+
 ## Details ##
 + **OS**: Fedora 34
 + **Shell**: ZSH
@@ -15,6 +17,7 @@
 |Dependency|Description|
 |:----------:|:-------------:|
 |`i3-gaps`|Window manager|
+|`picom`|Compositor, needed mostly for vsync|
 |`feh`|Fast image viewer used as wallpaper setting utility|
 |`mate-desktop`|My DE of choice, lightweight and solves some problems you may have with only a wm|
 |`mate-session-manager`|Needed to make the display manager show mate as an option|
@@ -28,6 +31,7 @@
 + `blueman`: Bluetooth managing application, spawns in the bluetooth top panel
 + `nm-connection-editor`: GUI wifi connection editor, spawns in the top panel
 + `xbacklight`: Controls display brightness, which the control of has been mapped to brightness keys
++ `seahorse`: Used to change the keyring password to nothing, to avoid an annoying popup on chromium 
 
 ### Fonts You Should Install ###
 + `SF Pro Text`: System font

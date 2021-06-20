@@ -51,7 +51,7 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = fixed:pixelsize=10;1
+font-0 = Noto Sans:pixelsize=10;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 
@@ -285,6 +285,8 @@ menu-0-1 = power off
 menu-0-1-exec = menu-open-2
 menu-0-2 = sleep
 menu-0-2-exec = menu-open-3
+menu-0-3 = logout
+menu-0-3-exec = menu-open-4
 
 menu-1-0 = cancel
 menu-1-0-exec = menu-open-0
@@ -300,6 +302,11 @@ menu-3-0 = sleep
 menu-3-0-exec = slock & systemctl suspend
 menu-3-1 = cancel
 menu-3-1-exec = menu-open-0
+
+menu-4-0 = logout
+menu-4-0-exec = pkill -KILL -u $USER
+menu-4-1 = cancel
+menu-4-1-exec = menu-open-0
 
 [settings]
 screenchange-reload = true

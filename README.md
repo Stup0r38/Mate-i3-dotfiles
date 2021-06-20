@@ -1,11 +1,10 @@
-# mate-i3-dotfiles
+# i3-dotfiles
 
 ![](/Screenshot.png)
 
 ## Details ##
-+ **OS**: Fedora 34
++ **OS**: Ubuntu 20.04
 + **Shell**: ZSH
-+ **DE**: Mate
 + **WM**: i3-gaps
 + **Theme**: WhiteSur-dark
 + **Icons**: Tela Blue
@@ -19,8 +18,7 @@
 |`i3-gaps`|Window manager|
 |`picom`|Compositor, needed mostly for vsync|
 |`feh`|Fast image viewer used as wallpaper setting utility|
-|`mate-desktop`|My DE of choice, lightweight and solves some problems you may have with only a wm|
-|`mate-session-manager`|Needed to make the display manager show mate as an option|
+|`lxpolkit`|Minimal polkit service|
 |`rofi`|Application launcher|
 |`slock`|Used to lock the screen|
 |[i3altlayout](https://github.com/deadc0de6/i3altlayout)|Used for better windows placement|
@@ -37,12 +35,6 @@
 + `SF Pro Text`: System font
 + `Inconsolata`: Terminal font.
 
-
-## Installation ##
-You will need to use the `dconf-editor`. You may need to install it as seems most distros don't provide it by default. Once you've got it open, head to `org > mate > desktop > session > required-components`. Change windowmanager from `marco` to `i3`.
-Then head up one level to `org > mate > desktop > session` and in `required-component-list`, delete `filemanager` and `panel`. This is needed otherwise MATE will open a background window for your desktop that will cover everything.
-Now log out and back in, and you should find yourself in MATE, but with i3 running too.
-[Source](https://mattgreer.dev/blog/mate-and-i3/).
 
 ## My Preferred Applications ##
 + **Text Editor - Micro:** It's just cool and easy to use

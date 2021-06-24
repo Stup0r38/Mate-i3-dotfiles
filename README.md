@@ -16,12 +16,22 @@
 |Dependency|Description|
 |:----------:|:-------------:|
 |`i3-gaps`|Window manager|
+|`dunst`|Notification manager|
 |`picom`|Compositor, needed mostly for vsync|
 |`feh`|Fast image viewer used as wallpaper setting utility|
 |`lxpolkit`|Minimal polkit service|
 |`rofi`|Application launcher|
 |`slock`|Used to lock the screen|
 |[i3altlayout](https://github.com/deadc0de6/i3altlayout)|Used for better windows placement|
+|`ttf-unifont`|needed by polybar|
+|[siji](https://github.com/csmertx/siji)|needed by polybar|
+
+###Notes###
+On Ubuntu you need to un-disable bitmap fonts
+`sudo rm /etc/fonts/conf.d/70-no-bitmaps.conf`
+and clear the font cache
+`sudo fc-cache -f -v`
+
 
 ### Optional Dependencies ###
 + `acpi`: Battery managing cli application, used by top bar widget to determine battery status

@@ -26,7 +26,7 @@
 |`ttf-unifont`|needed by polybar|
 |[siji](https://github.com/csmertx/siji)|needed by polybar|
 
-###Notes###
+### Notes ###
 On Ubuntu you need to un-disable bitmap fonts
 `sudo rm /etc/fonts/conf.d/70-no-bitmaps.conf`
 and clear the font cache

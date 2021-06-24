@@ -41,10 +41,10 @@ exec --no-startup-id lxpolkit
 
 #Set wallpaper
 #exec --no-startup-id feh --bg-fill ~/.config/i3/wallpaper.jpg
-exec --no-startup-id feh --bg-fill ~/.config/i3/wallpaper2.jpg
+exec_always --no-startup-id feh --bg-fill ~/.config/i3/wallpaper2.jpg
 
 #Start picom
-exec --no-startup-id picom --experimental-backends
+exec_always --no-startup-id ~/.config/i3/picom.sh 
 
 #Start redshift
 exec --no-startup-id redshift

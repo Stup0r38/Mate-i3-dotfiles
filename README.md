@@ -6,7 +6,7 @@
 + **OS**: Ubuntu 20.04
 + **Shell**: ZSH
 + **WM**: i3-gaps
-+ **Theme**: WhiteSur-dark
++ **Theme**: McMojave-dark
 + **Icons**: Tela Blue
 + **Cursor**: Bibata Oil
 + **Terminal**: Alacritty
